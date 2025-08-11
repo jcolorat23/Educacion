@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sección Educativa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      padding: 20px;
+    }
+    .edu-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .edu-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .edu-card:hover {
+      transform: translateY(-5px);
+    }
+    .edu-card h3 {
+      color: #004578;
+      margin-top: 0;
+    }
+    .edu-card p {
+      color: #333;
+      font-size: 14px;
+      line-height: 1.4em;
+    }
+    .edu-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #0078d4;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    .edu-btn:hover {
+      background-color: #005a9e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align:center;">Catálogo de Cursos</h1>
+
+  <div class="edu-container">
+    <div class="edu-card">
+      <h3>Curso de Ciberseguridad</h3>
+      <p>Aprende los principios básicos de la seguridad digital, contraseñas seguras, y protección contra malware.</p>
+      <a class="edu-btn" href="https://tusitio.com/curso-ciberseguridad" target="_blank">Acceder</a>
+    </div>
+
+    <div class="edu-card">
+      <h3>Introducción a la Programación</h3>
+      <p>Domina los fundamentos de programación en Python, desde cero hasta tus primeros proyectos prácticos.</p>
+      <a class="edu-btn" href="https://tusitio.com/curso-programacion" target="_blank">Acceder</a>
+    </div>
+
+    <div class="edu-card">
+      <h3>Matemáticas Básicas</h3>
+      <p>Refuerza tus habilidades en álgebra, geometría y aritmética con ejercicios prácticos y ejemplos.</p>
+      <a class="edu-btn" href="https://tusitio.com/curso-matematicas" target="_blank">Acceder</a>
+    </div>
+  </div>
+
+</body>
+</html>
